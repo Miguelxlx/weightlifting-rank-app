@@ -1,0 +1,37 @@
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rank-overview, .progress-overview {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .lift-ranks {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progress-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress-bar label {
+    width: 100px;
+  }
+  
+  progress {
+    width: 100%;
+  }
